@@ -1,0 +1,24 @@
+/*#square{
+	
+	height: 150px;
+	width: 150px;
+	border: 3px solid black;
+
+}*/
+#statusMessage{
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+	padding: 3%;
+	width: 70%;
+	font-family: Ubuntu;
+}
+
+#results{
+	text-align: center;
+	display: inline-block;
+	font-size: 24px;
+	width: 80%;
+	font-family: Ubuntu;
+
+}
