@@ -6,7 +6,7 @@ test('hello()', function() {
 
 test('hello_joe()', function() {
     equal(hello_joe("bob"), 'Hello!');
-    equal(hello_joe("jeff"), 'Hello !');	
+    equal(hello_joe("jeff"), 'Hello jeff!');	
     
 })
 
@@ -27,3 +27,15 @@ test('sum_numbers()', function() {
     equal(sum_numbers(2), 1);	
     
 })
+
+
+test('length()', function() {
+    equal(length('red'), 3);
+    
+})
+
+test('upper()', function() {
+    equal(upper('red'), "RED");
+    
+})
+
