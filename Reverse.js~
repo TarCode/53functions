@@ -1,0 +1,8 @@
+function Reverse(word){
+	var newString = "";
+	var x = newString.length;
+	while(x > 0){
+		newString += word.substring(x-1, x);
+		x--;
+	}
+}

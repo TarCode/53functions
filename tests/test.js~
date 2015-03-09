@@ -40,7 +40,7 @@ test('upper()', function() {
 })
 
 test('reverse()', function() {
-    equal(Reverse('red'), "der");
+    equal(reverse('red'), "der");
     
 })
 
