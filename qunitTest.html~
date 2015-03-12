@@ -12,7 +12,7 @@
     <script type="text/javascript" src="sum_numbers.js"></script>
     <script type="text/javascript" src="length.js"></script>
     <script type="text/javascript" src="upper.js"></script>
-    <script type="text/javascript" src="reverse.js"></script>
+    <script type="text/javascript" src="Reverse.js"></script>
     <!-- Your tests file goes here -->
     <script type="text/javascript" src="tests/test.js"></script>
 </head>

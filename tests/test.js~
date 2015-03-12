@@ -40,7 +40,13 @@ test('upper()', function() {
 })
 
 test('reverse()', function() {
-    equal(reverse('red'), "der");
+    equal(Reverse('red'), "der");
+    
+})
+
+test('hello_list()', function() {
+    var hi = ['hello world', 'hello world', 'hello world'];	
+    equal(hello_list(2), hi);
     
 })
 

@@ -44,4 +44,10 @@ test('reverse()', function() {
     
 })
 
+test('hello_list()', function() {
+    var hi = ['hello world', 'hello world', 'hello world'];	
+    deepEqual(hello_list(2), hi);
+    
+})
+
 
