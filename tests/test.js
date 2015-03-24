@@ -65,4 +65,11 @@ test('count_words()', function() {
     
 })
 
+test('sum_word_len()', function() {
+    var str = "I contain four words";	
+
+    equal(sum_word_len(str), 17);
+    
+})
+
 
