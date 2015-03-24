@@ -46,7 +46,15 @@ test('reverse()', function() {
 
 test('hello_list()', function() {
     var hi = ['hello world', 'hello world', 'hello world'];	
-    equal(hello_list(2), hi);
+    deepEqual(hello_list(2), hi);
+    
+})
+
+test('high_low()', function() {
+    var numList = [1,2,3,4];	
+    var out = "low = 1 , high = 4";
+
+    deepEqual(hello_list(numList), out);
     
 })
 

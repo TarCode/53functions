@@ -50,4 +50,12 @@ test('hello_list()', function() {
     
 })
 
+test('high_low()', function() {
+    var numList = [1,2,3,4];	
+    var out = "low = 1 , high = 4";
+
+    deepEqual(high_low(numList), out);
+    
+})
+
 
