@@ -58,4 +58,11 @@ test('high_low()', function() {
     
 })
 
+test('count_words()', function() {
+    var str = "I contain four words";	
+
+    equal(count_words(str), 4);
+    
+})
+
 

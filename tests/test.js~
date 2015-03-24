@@ -54,7 +54,14 @@ test('high_low()', function() {
     var numList = [1,2,3,4];	
     var out = "low = 1 , high = 4";
 
-    deepEqual(hello_list(numList), out);
+    deepEqual(high_low(numList), out);
+    
+})
+
+test('coutn_words()', function() {
+    var str = "I contain four words";	
+
+    equal(count_words(str), 4);
     
 })
 
