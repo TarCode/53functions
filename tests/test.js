@@ -72,4 +72,11 @@ test('sum_word_len()', function() {
     
 })
 
+test('longest_word()', function() {
+    var str = "I contain six variable sized words";   
+
+    equal(longest_word(str), "variable: 8");
+    
+})
+
 
