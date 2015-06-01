@@ -86,4 +86,11 @@ test('shortest_word()', function() {
     
 })
 
+test('word_length()', function() {
+    var str = "Six variable sized words I contain";   
+
+    equal(word_length(str), "5 or 4.83");
+    
+})
+
 
