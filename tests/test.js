@@ -93,4 +93,10 @@ test('word_length()', function() {
     
 })
 
+test('avg()', function() {
+    var str = "Six variable sized words I contain";   
+
+    equal(avg(str), "5");
+    
+})
 
