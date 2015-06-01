@@ -79,4 +79,11 @@ test('longest_word()', function() {
     
 })
 
+test('shortest_word()', function() {
+    var str = "Six variable sized words I contain";   
+
+    equal(shortest_word(str), "I: 1");
+    
+})
+
 
