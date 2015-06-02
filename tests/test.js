@@ -164,3 +164,10 @@ test('square()', function() {
     equal(square(cha), str);
     
 })
+
+test('square_param()', function() {
+    var str = "\n@@@@@@\n@@@@@@\n@@@@@@\n@@@@@@\n@@@@@@\n@@@@@@";
+    var cha = "@"
+    equal(square_param(cha,6), str);
+    
+})
