@@ -142,3 +142,11 @@ test('uppercase_letters()', function() {
     deepEqual(uppercase_letters(str), hi);
     
 })
+
+test('lowercase_letters()', function() {
+    var str = "Silly Billy Bib";
+    var hi = ['i','l','l','y','i','l','l','y','i','b']; 
+
+    deepEqual(lowercase_letters(str), hi);
+    
+})
