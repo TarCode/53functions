@@ -124,3 +124,13 @@ test('occurs_most()', function() {
     equal(occurs_most(str2), "U");
     
 })
+
+test('occurs_least()', function() {
+    var str = "silly billy bib";
+    var str2 = "dippy dilly bob";
+
+    equal(occurs_least(str), "S");
+    equal(occurs_least(str2), "O");
+    
+    
+})
