@@ -106,3 +106,12 @@ test('start()', function() {
     equal(start(str), "S");
     
 })
+
+test('ends()', function() {
+    var str = "Lots of super variable sized words I contain";
+    var str2 = "Lot of super variabled sized word I contained";   
+
+    equal(ends(str), "S");
+    equal(ends(str2), "D");
+    
+})
