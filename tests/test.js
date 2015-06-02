@@ -157,3 +157,10 @@ test('square_stars()', function() {
     equal(square_stars(), str);
     
 })
+
+test('square()', function() {
+    var str = "\n@@@@\n@@@@\n@@@@\n@@@@";
+    var cha = "@"
+    equal(square(cha), str);
+    
+})
