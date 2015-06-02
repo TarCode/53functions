@@ -115,3 +115,12 @@ test('ends()', function() {
     equal(ends(str2), "D");
     
 })
+
+test('occurs_most()', function() {
+    var str = "Lots of super variable sized words I contain";
+    var str2 = "Lump of super clumpy sized buns for funs";   
+
+    equal(occurs_most(str), "O");
+    equal(occurs_most(str2), "U");
+    
+})
