@@ -150,3 +150,10 @@ test('lowercase_letters()', function() {
     deepEqual(lowercase_letters(str), hi);
     
 })
+
+test('square_stars()', function() {
+    var str = "\n****\n****\n****\n****";
+
+    equal(square_stars(), str);
+    
+})
