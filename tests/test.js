@@ -134,3 +134,11 @@ test('occurs_least()', function() {
     
     
 })
+
+test('uppercase_letters()', function() {
+    var str = "Silly Billy Bib";
+    var hi = ['S', 'B', 'B']; 
+
+    deepEqual(uppercase_letters(str), hi);
+    
+})
