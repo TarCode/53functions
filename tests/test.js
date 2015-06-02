@@ -100,3 +100,9 @@ test('avg()', function() {
     
 })
 
+test('start()', function() {
+    var str = "Lots of super variable sized words I contain";   
+
+    equal(start(str), "S");
+    
+})
