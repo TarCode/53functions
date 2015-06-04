@@ -171,3 +171,17 @@ test('square_param()', function() {
     equal(square_param(cha,6), str);
     
 })
+
+test('tri()', function() {
+    var str = "\n*\n**\n***\n****\n";
+    
+    equal(tri(), str);
+    
+})
+
+test('tri_char()', function() {
+    var str = "\n#\n##\n###\n####\n";
+    
+    equal(tri_char("#"), str);
+    
+})
